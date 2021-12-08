@@ -1,7 +1,5 @@
 #  Hard Question ===== Naive Solution ====>> O(log(n1+n2))== Time Complexity
 https://leetcode.com/problems/median-of-two-sorted-arrays/
-
-
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float: 
         if len(nums2) < len(nums1):
