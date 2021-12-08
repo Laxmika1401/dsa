@@ -9,7 +9,7 @@ class Solution:
         i = 0
         j = m * n - 1
         while(i <= j):
-            mid = (i + (j-i)//2)
+            mid = (i + j)//2
             if matrix[mid//n][mid % n] == target:
                 return True
             if matrix[mid//n][mid % n] < target:
